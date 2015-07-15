@@ -55,15 +55,21 @@ div.buttons{
 	padding: 120px 20px;
 	overflow-y: scroll;
 }
-iframe{
+#form, #respostas{
 	display: none;
+	width: 100%;
+	height: 100%;
+	padding-top: 50px;
 }
-#close-form{
+iframe{
+	width: 100%;
+	height: 100%;
+}
+#close-form, #close-respostas{
 	font-size: 30px;
 	color: #333;
-	display: none;
 	position: absolute;
-	top:20px;
+	top: 0px;
 	right: 20px;
 }
 .main-content h5{
@@ -75,12 +81,12 @@ iframe{
 .main-content p{
 	font-family: 'Martel', serif;
 	color: #666;
-	margin-bottom: 1em;
 	font-size: .9em;
 	line-height: 2em;
 }
 p.exmo{
 	color: #333;
+	margin-bottom: 0;
 }
 div.texto-carta{
 	margin-top: 2em;
