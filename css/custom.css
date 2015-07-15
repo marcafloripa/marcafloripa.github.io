@@ -5,26 +5,36 @@ body{
 	bottom: 0;
 	left: 0;
 	right: 0;
-	overflow: hidden;
 }
 section#main{
 	height: 100%;
 	width: 100%;
 	position: relative;
 }
-.logos-img{
+.apoios{
+	position: relative;
 	height: 100%;
+}
+div.logos-img{
 	background-image: url('../img/logos.jpg');
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
+	position: absolute;
+	bottom:100px;
+	left:0;
+	right:0;
+	top:0;
 }
 div.buttons{
 	position: absolute;
-	bottom:50px;
-	left:50px;
+	bottom:20px;
+	left:20px;
+	right:20px;
+	padding-top:20px;
+	text-align: center;
 }
-.logos-img button{
+.apoios button{
 	position: relative;
 	margin: 10px;
 	background-color: #fff;
@@ -32,17 +42,18 @@ div.buttons{
 	color: #333;
 	transition: all ease-in-out .2s;
 }
-.logos-img button:hover,
-.logos-img button:active,
-.logos-img button:focus{
+.apoios button:hover,
+.apoios button:active,
+.apoios button:focus{
 	background-color: #333;
 	border: 1px solid #fff;
 	color: #fff;
 }
 .main-content{
+	height: 100%;
 	background-color: #efefef;
-	padding: 120px 60px;
-	overflow: scroll;
+	padding: 120px 20px;
+	overflow-y: scroll;
 }
 
 .main-content h5{
@@ -56,7 +67,6 @@ div.buttons{
 	color: #666;
 	margin-bottom: 1em;
 	font-size: .9em;
-	max-width: 600px;
 	line-height: 2em;
 }
 p.exmo{
