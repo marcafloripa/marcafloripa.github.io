@@ -55,7 +55,17 @@ div.buttons{
 	padding: 120px 20px;
 	overflow-y: scroll;
 }
-
+iframe{
+	display: none;
+}
+#close-form{
+	font-size: 30px;
+	color: #333;
+	display: none;
+	position: absolute;
+	top:20px;
+	right: 20px;
+}
 .main-content h5{
 	font-family: 'Oswald', sans-serif;
 	color: #333;
