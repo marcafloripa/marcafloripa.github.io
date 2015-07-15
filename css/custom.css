@@ -1,0 +1,70 @@
+body{
+	padding: 0;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+}
+section#main{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+.logos-img{
+	height: 100%;
+	background-image: url('../img/logos.jpg');
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+div.buttons{
+	position: absolute;
+	bottom:50px;
+	left:50px;
+}
+.logos-img button{
+	position: relative;
+	margin: 10px;
+	background-color: #fff;
+	border: 1px solid #333;
+	color: #333;
+	transition: all ease-in-out .2s;
+}
+.logos-img button:hover,
+.logos-img button:active,
+.logos-img button:focus{
+	background-color: #333;
+	border: 1px solid #fff;
+	color: #fff;
+}
+.main-content{
+	background-color: #efefef;
+	padding: 120px 60px;
+	overflow: scroll;
+}
+
+.main-content h5{
+	font-family: 'Oswald', sans-serif;
+	color: #333;
+	margin-bottom: 60px;
+	font-size: 1.2em;
+}
+.main-content p{
+	font-family: 'Martel', serif;
+	color: #666;
+	margin-bottom: 1em;
+	font-size: .9em;
+	max-width: 600px;
+	line-height: 2em;
+}
+p.exmo{
+	color: #333;
+}
+div.texto-carta{
+	margin-top: 2em;
+}
+p.local-data{
+	text-align: right;
+}
