@@ -64,7 +64,7 @@ iframe{
 	width: 100%;
 	height: 100%;
 }
-#close-form, #close-respostas{
+#voltar{
 	font-size: 30px;
 	color: #333;
 	position: absolute;
@@ -98,6 +98,34 @@ p.local-data{
 	display: none;
 }
 
+.assinaturas{
+    position: absolute;
+    display: none;
+    top: 0;
+    bottom: 120px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    overflow-x:hidden;
+    padding: 50px;
+}
+
+.assinaturas h5{
+	font-family: 'Oswald', sans-serif;
+	color: #333;
+	font-size: 1.2em;
+}
+
+.assinaturas ol{
+	font-size: .8em;
+	top: 40px;
+}
+.assinaturas ol li{
+	font-family: 'Tinos', serif;
+	color: #666;
+	line-height: 2em;
+}
+
 @media (max-width: 480px){
 	.main-content{
 		height: auto;
@@ -110,6 +138,18 @@ p.local-data{
 	.main-content p{
 		font-size: .8em;
 	}
+/*	.main-content p a{
+		text-decoration: none;
+		color: #666;
+		font-weight: bold;
+	}
+	.main-content p a:hover,
+	.main-content p a:focus,
+	.main-content p a:active,
+	.main-content p a:visited{
+		text-decoration: underline;
+		color: #666;
+	}*/
 	.main-content p.local-data{
 		text-align: left;
 	}
